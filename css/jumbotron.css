@@ -1,0 +1,78 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+#divider {
+    height: 2px;
+    width:100%;
+    background-color: deepskyblue;
+    background-image:url(../res/glow.png);
+    background-size: cover;
+	background-repeat: repeat-y;
+	animation: animatedBackground 10s linear infinite;
+}
+
+.navbar{
+    border: 0;
+}
+
+.logo-l{
+    width:100px;
+    height:100px;
+}
+
+.jumbotron{
+    background-image: url(../res/shatter.png);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.jumbotron hr{
+    border-color: #9d9d9d;25
+    width: 50%;
+}
+
+.jumbotron h1{
+    font-size: 65px;
+}
+
+.btn-xlarge {
+    padding: 14px 28px;
+    font-size: 22px; //change this to your desired size
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+}
+
+#jumboButton{
+    margin-right: 25px;
+}
+
+.page-header{
+    text-align: center;
+    font-size: 40px;
+}
+
+.recent-projects{
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+    .portfolio-item{
+        margin-left: 25%;
+    }
+    
+ 
+}
+
+@keyframes animatedBackground {
+	from { background-position: 0% 0; }
+	to { background-position: 0% 100%; }
+}
