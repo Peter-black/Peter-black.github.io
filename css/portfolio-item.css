@@ -35,6 +35,7 @@ footer {
 .description{
     position: relative;
     height:500px;
+    padding-bottom: 420px;
 }
 
 #sourceButton{
