@@ -31,7 +31,7 @@ body {
 }
 
 .jumbotron hr{
-    border-color: #9d9d9d;25
+    border-color: #9d9d9d;
     width: 50%;
 }
 
@@ -41,7 +41,7 @@ body {
 
 .btn-xlarge {
     padding: 14px 28px;
-    font-size: 22px; //change this to your desired size
+    font-size: 22px; 
     line-height: normal;
     -webkit-border-radius: 8px;
        -moz-border-radius: 8px;
@@ -57,7 +57,19 @@ body {
     font-size: 40px;
 }
 
-.recent-projects{
+.glow-header{
+    border-bottom: 1px solid fuchsia;
+    animation: animatedBorder 10s linear infinite;
+}
+
+.skilllist{
+    font-size: 27px;
+    list-style: none;
+    padding-left: 75px;
+}
+
+.skilllist li{
+    line-height: 45px;
 }
 
 .portfolio-item {
@@ -69,10 +81,17 @@ body {
         margin-left: 25%;
     }
     
+    .skills{
+        width:100%;   
+    }
  
 }
 
 @keyframes animatedBackground {
 	from { background-position: 0% 0; }
 	to { background-position: 0% 100%; }
+}
+
+@keyframes animatedBorder {
+	50% {border-color: aqua;}
 }
