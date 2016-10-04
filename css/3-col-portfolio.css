@@ -12,7 +12,7 @@ body {
     height: 2px;
     width:100%;
     background-color: deepskyblue;
-    background-image:url(../res/glow.png);
+    background-image:url(/res/glow.png);
     background-size: cover;
 	background-repeat: repeat-y;
 	animation: animatedBackground 10s linear infinite;

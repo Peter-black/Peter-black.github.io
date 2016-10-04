@@ -1,0 +1,96 @@
+/*!
+ * Start Bootstrap - 1 Col Portfolio (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 40px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+#divider {
+    height: 2px;
+    width:100%;
+    background-color: deepskyblue;
+    background-image:url(/res/glow.png);
+    background-size: cover;
+	background-repeat: repeat-y;
+	animation: animatedBackground 10s linear infinite;
+}
+
+.navbar{
+    border: 0;
+}
+
+h3{
+    margin-top: 0;  
+}
+
+.source{
+    height: 0;
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+
+.source:hover hide{
+    white-space: nowrap;
+    opacity: 1;
+    width: 160px;
+}
+
+.source i{
+    position: relative;
+    border-radius: 50%;
+    background-color: #95d63c;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 19px;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+hide{
+    overflow: hidden;
+    background-color: #95d63c;
+    position: absolute;
+    width: 0;
+    padding-left: 10px;
+    color: #FFFFFF;
+    height: 19px;
+    right: 6px;
+    top: 2px;
+    transition: 1s;
+    opacity: 0;
+    z-index: 1;
+}
+
+.col-md-5{
+    height: 200px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.btn{
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    line-height: 35px;
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+@keyframes animatedBackground {
+	from { background-position: 0% 0; }
+	to { background-position: 0% 100%; }
+}
