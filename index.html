@@ -1,136 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="I am a Computer Games Technology student living in Dundee. I love making and playing games.">
-    <meta name="author" content="Peter Black">
-    <!-- Android meta tags -->
-    <meta name="theme-color" content="#333">
-    <link rel="icon" sizes="192x192" href="/res/logo-android.png">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="description" content="I am a Computer Games Technology student living in Dundee. I love making and playing games.">
+        <meta name="author" content="Peter Black">
+        <!-- Android meta tags -->
+        <meta name="theme-color" content="#D7AF7D">
+        <link rel="icon" sizes="192x192" href="/res/logo-android.png">
 
     <title>Peter Black | GameDev</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-      
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
     <!-- Custom styles for this template -->
-    <link href="css/jumbotron.css" rel="stylesheet">
-      
+    <link href="css/generic.css" rel="stylesheet">
+    
     <!-- Javascript fun -->
     <script type="text/javascript" src="js/fun.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-      
+    
     <audio>
-	   <source src="res/mrblack.mp3"></source>
-	   <source src="res/mrblack.ogg"></source>
+        <source src="res/mrblack.mp3"></source>
+        <source src="res/mrblack.ogg"></source>
     </audio>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
+</head>
 
-  <body>
-
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-            <a href="/"><img src="res/logo-s.png" class="logo-s"></img></a>
-          <a class="navbar-brand" href="http://pete.black">Peter Black</a>
+    <body>
+        <div class="pageContent">
+        <div class="header">
+            <h1 onclick="mrblackplay()">PETER BLACK</h1>
+            <p id="tag">I MAKE GAMES</p>
+            <div class="nav">
+                  <ul>
+                      <a href="/projects/"><li>
+                          PROJECTS
+                      </li></a>
+                      <li class="spacing">
+                          -
+                      </li>
+                      <a href="https://github.com/Peter-black"><li>
+                          GITHUB
+                      </li></a>
+                      <li id="shrinkSpacer" class="spacing">
+                          -
+                      </li>
+                      <a href="/res/Downloads/PeterBlackCV.pdf"><li>
+                          CV
+                      </li></a>
+                      <li class="spacing">
+                          -
+                      </li>
+                      <a href="http://wrenchgames.co.uk"><li>
+                          WRENCH GAMES
+                      </li></a>
+                  </ul>
+                </div>
+                <div class="divider header"></div>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                <li>
-                    <a href="/projects/">Projects</a>
-                </li>
-                <li>
-                    <a href="/skills/">Skills</a>
-                </li>
-                <li>
-                    <a href="/contact/">Contact</a>
-                </li>
-            </ul>
-        </div><!--/.navbar-collapse -->
-      </div>
-         <div id="divider"></div>
-    </nav>
-
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-          <div class="logo-l-div"><img src="res/logo-l.png" class="logo-l"></img></div>
-        <h1 onClick="mrblackplay()">Peter Black</h1>
-        <p>I am a Computer Games Technology student living in Dundee. I love making and playing games. </p>
-         <hr>
-        <p>
-            <a class="btn btn-primary btn-xlarge" id="jumboButton" href="/projects/" role="button">Projects &raquo;</a>
-            <a class="btn btn-success btn-xlarge" id="jumboButton" href="https://github.com/Peter-black" role="button"><i class="fa fa-github"></i> Github &raquo;</a>
-        </p>
-      </div>
-    </div>
-
-    <div class="container">
-<!-- Related Projects Row -->
-        <div class="row recent-projects">
-
-            <div class="col-lg-12">
-                <h3 class="page-header">Recent Projects</h3>
+        
+        <div id="contentContainer">
+            <div id="extraContent">
+              <h2>ABOUT</h2>
+                <p>I like games and programming, put them together and what do you get? Pro-gaming! Sadly I can't play games that well, but I'm great at making them!</p>
+                <p>I am a 4th Year Computer Games Technology Student at Abertay University.</p>
+                  <p></p>
+              <h2>SKILLS</h2>
+                <div class="skillBox"> 
+                  <ul>
+                      <li>C++</li>
+                      <li>C</li>
+                      <li>Java</li>
+                      <li>DirectX11</li>
+                      <li>OpenGL</li>  
+                      <li>Procedural Generation</li>
+                      <li>WebDev</li>
+                  </ul>
+                </div> 
+                <div class="skillBox">
+                  <ul>
+                      <li>Git</li>
+                      <li>UE4 </li>
+                      <li>Console Development</li>
+                      <li>GameMaker</li>
+                      <li>Native Android</li>
+                      <li>Photoshop</li>
+                      <li>Teamwork</li>
+                  </ul>
+                </div>
             </div>
             
-            <div class="col-sm-4 col-xs-8">
-                <a href="/projects/railstorest/">
-                    <img class="img-responsive portfolio-item" src="res/rails-s.png" alt="">
-                </a>
+            <div id="mainContent">
+              <h2>RECENT PROJECTS</h2>
+              
+              <div class="projectContainer">
+                  <div class="projectImageContainer">
+                      <a href="projects/railstorest/"><div class="projectImage" id="railsLogo"></div></a>
+                  </div>
+                  <div class="projectText">
+                      <div class="projectTitle"><h3>RAILS TO REST</h3></div>
+                      <div class="projectDescription">My entry with the Wrench Games team to the #RainbowJam16. A short exploring game on the theme of Identity.</div>
+                  </div>
+                  <a href="projects/railstorest/"><div class="projectView">More Info</div></a>
+              </div>
+                
+                <div class="divider"></div>
+                
+                <div class="projectContainer">
+                  <div class="projectImageContainer">
+                      <a href="projects/terrain/"><div class="projectImage" id="terrainLogo"></div></a>
+                  </div>
+                  <div class="projectText">
+                      <div class="projectTitle"><h3>Procedural Terrain Demo</h3></div>
+                      <div class="projectDescription">A DirectX application showcasing a few techniques for generating procedural terrain. The two methods used were simplex noise and faulting.</div>
+                  </div>
+                  <a href="projects/terrain/"><div class="projectView">More Info</div></a>
+              </div>
+                
+               <div class="divider"></div>
+                
+                <div class="projectContainer">
+                  <div class="projectImageContainer">
+                      <a href="projects/wrenchgames/"><div class="projectImage" id="websiteLogo"></div></a>
+                  </div>
+                  <div class="projectText">
+                      <div class="projectTitle"><h3>Wrench Games - Website</h3></div>
+                      <div class="projectDescription">I created a website for Wrench Games which shows off the company and the projects. I also created the logo and branding for the company.</div>
+                      <a href="projects/wrenchgames/"><div class="projectView">More Info</div></a>
+                  </div>
+                </div>
+                
+                <div class="divider hidden"></div>
+                
+              <div id="moreProjects"><a href="/projects/">&#91;&#43;&#93; More Projects</a></div>
+                
             </div>
-            
-            <div class="col-sm-4 col-xs-8">
-                <a href="/projects/wrenchgames/">
-                    <img class="img-responsive portfolio-item" src="res/wrench-s.png" alt="">
-                </a>
-            </div>
-
-            <div class="col-sm-4 col-xs-8">
-                <a href="/projects/terrain/">
-                    <img class="img-responsive portfolio-item" src="res/terrain-s.png" alt="">
-                </a>
-            </div>
-
-        </div>
-        <!-- /.row -->
-
-      <hr>
-
-      <footer>
-          <p><i class="fa fa-envelope"></i> &nbsp;contact@pete.black</p>
-      </footer>
-    </div> <!-- /container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
+      </div>
+      </div><!-- Page Content (everything but footer -->
+      <div class="footer"><p>contact@pete.black</p></div    
+    </body>
 </html>

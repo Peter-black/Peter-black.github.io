@@ -1,0 +1,139 @@
+#projectInfo a:hover{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#projectContent{
+    display: block;
+    height: 425px;
+    position: relative;
+}
+
+#photoWrapper{
+    display: inline-block;
+    float: left;
+    width: 45%;
+    margin-top: 25px;
+}
+
+#projectInfo{
+    display: inline-block;
+    float: right;
+    width: 50%;
+
+    padding-left: 5%;
+}
+
+#projectDate{
+    color: rgb(40,40,40);
+    font-size: 15px;
+}
+
+#projectLinks{
+    display: block;
+}
+
+.linksBox{
+    display: block;
+    font-family: VCR;
+    right: 15px;
+    bottom: 25px;
+    position: absolute;
+}
+
+.linksBox a{
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.linksBox a:hover{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#contentContainer h2{
+    width: 100%;
+}
+
+#Content{
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    float: left; 
+    margin-bottom: 35px;
+}
+
+.projectContainer{
+    vertical-align: top;
+    width: 350px;
+    height: 175px;
+    margin: 10px 10px 0px 10px;
+    display: inline-block;
+    border-bottom: #000 solid 1px;
+}
+
+#small{
+    color: rgb(40,40,40);
+    font-size: 15px;
+}
+
+.source{
+    color: rgb(88, 145, 83);
+}
+
+
+@media (max-width: 1300px) {
+    #extraProject4{
+        display: none;
+    }
+}
+
+@media (max-width: 1050px) {
+    #extraProject3{
+        display: none;
+    }
+}
+
+@media (max-width: 790px) {
+    #photoWrapper{
+        display: block;
+        width: 100%;
+    }
+    
+    #projectInfo{
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+    }
+    
+    .projectImageContainer{
+        display: block;
+        width: 100%;
+        padding: 0px 20px 20px 10px;
+        float: left;
+    }
+    
+    .projectImage{
+        width: 300px;
+        height: 180px;
+        background-size: contain;
+        margin: 0 auto;
+        box-shadow:  3px 3px 7px rgba(0, 0, 0, 0.3); 
+    }
+    
+    .linksBox{
+        margin-top: 40px;
+        margin-bottom: 20px;
+        width: 100%;
+        position: static;
+        float: right;
+        text-align: right;
+    }
+    
+    .projectContainer{
+        width: 90%;
+        height: 225px;
+    }
+    
+    .projectTitle{
+        line-height: 1em;
+    }
+}
