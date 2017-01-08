@@ -136,4 +136,10 @@
     .projectTitle{
         line-height: 1em;
     }
+    
+    #contentContainer{
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 0px;
+    }
 }
