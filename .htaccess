@@ -1,0 +1,5 @@
+Redirect 301 /supercratebox/ http://www.pete.black/projects/supercratebox/
+Redirect 301 /terrain/ http://www.pete.black/projects/terrain/
+
+ErrorDocument 403 /403/index.html
+ErrorDocument 404 /404/index.html
