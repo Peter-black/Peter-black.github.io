@@ -406,6 +406,10 @@ h3{
     background-image: url(/res/terrain-s.png);
 }
 
+#beatmachineLogo{
+    background-image: url(/res/beatmachine-s.png);
+}
+
 #websiteLogo{
     background-image: url(/res/wrench-s.png);
 }
