@@ -389,6 +389,10 @@ h3{
 }
 
 /*Images*/
+#destructionLogo{
+    background-image: url(/res/destruction-s.png);
+    box-shadow:  3px 3px 7px rgba(0, 0, 0, 0.0); 
+}
 
 #killspillLogo{
     background-image: url(/res/killspill-s.png);
