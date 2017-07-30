@@ -389,6 +389,10 @@ h3{
 }
 
 /*Images*/
+#noiseLogo{
+    background-image: url(/res/noise-s.png);
+}
+
 #destructionLogo{
     background-image: url(/res/destruction-s.png);
     box-shadow:  3px 3px 7px rgba(0, 0, 0, 0.0); 
