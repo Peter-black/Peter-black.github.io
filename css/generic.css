@@ -389,6 +389,10 @@ h3{
 }
 
 /*Images*/
+#onrushLogo{
+    background-image: url(/res/onrush-s.png);
+}
+
 #noiseLogo{
     background-image: url(/res/noise-s.png);
 }
