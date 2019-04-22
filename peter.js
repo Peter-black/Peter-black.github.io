@@ -140,21 +140,30 @@ function Update(e)
     //////////////////////////DRAW
     ///////////////////////////////////////////////////////////////
     ctx.clearRect (0, 0, ctx.canvas.width, ctx.canvas.height);
-
-    for(i = 0; i < numPoints; i++)
+    
+    var allowRender = true;
+    if( canvas.width < 400 || canvas.height < 300)
     {
-        drawPoint(ctx, pointsArray[i], 3);
-        
-        for(var j = i; j < numPoints; j++)
+        allowRender = false;
+    }
+    
+    if(allowRender)
+    {
+        for(i = 0; i < numPoints; i++)
         {
-            var distanceBetweenPoints = distanceCheck(pointsArray[i], pointsArray[j]);
-            var distanceForLineSq = distanceForLine * distanceForLine;
-            if(distanceBetweenPoints < distanceForLineSq)
+            drawPoint(ctx, pointsArray[i], 3);
+
+            for(var j = i; j < numPoints; j++)
             {
-                var a1 = 1-(distanceBetweenPoints/distanceForLineSq);
-                var opacity = a1*a1 * 2;
-                
-                drawLineBetweenPoints(ctx, pointsArray[i], pointsArray[j], opacity);
+                var distanceBetweenPoints = distanceCheck(pointsArray[i], pointsArray[j]);
+                var distanceForLineSq = distanceForLine * distanceForLine;
+                if(distanceBetweenPoints < distanceForLineSq)
+                {
+                    var a1 = 1-(distanceBetweenPoints/distanceForLineSq);
+                    var opacity = a1*a1 * 2;
+
+                    drawLineBetweenPoints(ctx, pointsArray[i], pointsArray[j], opacity);
+                }
             }
         }
     }
