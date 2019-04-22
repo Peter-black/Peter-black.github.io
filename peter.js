@@ -55,7 +55,7 @@ function Update(e)
         var numPointsToCreate = maxNumPoints;
         if(canvas.width < canvas.height)
         {
-            numPointsToCreate = maxNumPoints / 2;
+            numPointsToCreate = maxNumPoints / 1;
         }
         
         for(i = 0; i < numPointsToCreate; i++)
