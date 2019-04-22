@@ -1,217 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!-- hallo iam petri iam abertay i make gem -->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <meta name="description" content="I am a Computer Games Technology student living in Dundee. I love making and playing games.">
+
+        <meta name="description" content="Peter Black | Engine Programmer | Avalanche Studios | Malmö 🇸🇪">
         <meta name="author" content="Peter Black">
         <!-- Android meta tags -->
-        <meta name="theme-color" content="#D7AF7D">
-        <link rel="icon" sizes="192x192" href="/res/logo-android.png">
+        <meta name="theme-color" content="#EEEAE5">
 
-    <title>Peter Black | Projects</title>
-
-    <!-- Custom styles for this template -->
-    <link href="/css/generic.css" rel="stylesheet">
-    <link href="/css/projects.css" rel="stylesheet">
-    
-    <!-- Javascript fun -->
-    <script type="text/javascript" src="js/fun.js"></script>
+        <title>Peter Black</title>
+        <link href="/black.css" rel="stylesheet">
         
-    <audio>
-        <source src="res/mrblack.mp3"></source>
-        <source src="res/mrblack.ogg"></source>
-    </audio>
-
-</head>
-
-    <body>
-        <div class="pageContent">
-        <div class="header">
-            <h1 onclick="mrblackplay()">PETER BLACK</h1>
-            <p></p>
-            <div class="divider header"></div>
-        </div>
-        
-        <div id="contentContainer">
-            <h2>PROJECTS</h2>
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
             
-            <div id="Content">
-                
-            <div class="projectContainer">
-                  <div class="projectImageContainer">
-                      <a href="/projects/onrush/"><div class="projectImage" id="onrushLogo"></div></a>
-                  </div>
-                  <div class="projectText">
-                      <div class="projectTitle"><h3>ONRUSH</h3></div>
-                      <div class="projectDescription">ONRUSH is a vehicular combat based "racing" game released by Codemasters. I worked on the Core Tech team as a programmer.</div>
-                  </div>
-                  <a href="/projects/onrush/"><div class="projectView">More Info</div></a>
-            </div>    
-                
-            <div class="projectContainer">
-                  <div class="projectImageContainer">
-                      <a href="/projects/noise/"><div class="projectImage" id="noiseLogo"></div></a>
-                  </div>
-                  <div class="projectText">
-                      <div class="projectTitle"><h3>Noise</h3></div>
-                      <div class="projectDescription">A quick game I made to test out what it would look like if everything in the game was noise. It turns out it hurts your eyes.</div>
-                  </div>
-                  <a href="/projects/noise/"><div class="projectView">More Info</div></a>
-            </div>
-                
-            <div class="projectContainer">
-                  <div class="projectImageContainer">
-                      <a href="/projects/destruction/"><div class="projectImage" id="destructionLogo"></div></a>
-                  </div>
-                  <div class="projectText">
-                      <div class="projectTitle"><h3>Procedural Destruction</h3></div>
-                      <div class="projectDescription">For my Honours project I created a real-time procedural destruction system in Unreal Engine 4. Allowing dynamic destruction of any mesh.</div>
-                  </div>
-                  <a href="/projects/destruction/"><div class="projectView">More Info</div></a>
-              </div>
-                
-              <div class="projectContainer">
-                  <div class="projectImageContainer">
-                      <a href="/projects/killspill/"><div class="projectImage" id="killspillLogo"></div></a>
-                  </div>
-                  <div class="projectText">
-                      <div class="projectTitle"><h3>Kill Spill</h3></div>
-                      <div class="projectDescription">The Wrench Games team entry to the Global Game Jam 2017. Waves of enemies attack until you are fighting in waves of blood! &#40;Theme: Waves&#41;</div>
-                  </div>
-                  <a href="/projects/killspill/"><div class="projectView">More Info</div></a>
-              </div>
-                
-                <div class="projectContainer">
-                  <div class="projectImageContainer">
-                      <a href="/projects/arracing/"><div class="projectImage" id="racingLogo"></div></a>
-                  </div>
-                  <div class="projectText">
-                      <div class="projectTitle"><h3>AR VITA RACING</h3></div>
-                      <div class="projectDescription">A small game demo using the AR functionality on the PS Vita to make a dynamic racing track on the table infront of you.</div>
-                  </div>
-                  <a href="/projects/arracing/"><div class="projectView">More Info</div></a>
-              </div>
-                
-              <div class="projectContainer">
-                  <div class="projectImageContainer">
-                      <a href="/projects/railstorest/"><div class="projectImage" id="railsLogo"></div></a>
-                  </div>
-                  <div class="projectText">
-                      <div class="projectTitle"><h3>RAILS TO REST</h3></div>
-                      <div class="projectDescription">My entry with the Wrench Games team to the #RainbowJam16. A short exploring game on the theme of Identity.</div>
-                  </div>
-                  <a href="/projects/railstorest/"><div class="projectView">More Info</div></a>
-              </div>
-                
-                
-             <div class="projectContainer">
-                  <div class="projectImageContainer">
-                      <a href="/projects/wrenchgames/"><div class="projectImage" id="websiteLogo"></div></a>
-                  </div>
-                  <div class="projectText">
-                      <div class="projectTitle"><h3>Wrench Games - Website</h3></div>
-                      <div class="projectDescription">I created a website for Wrench Games which shows off the company and the projects. I also created the logo and branding for the company.</div>
-                  </div>
-                  <a href="/projects/wrenchgames/"><div class="projectView">More Info</div></a>
-              </div>
+        <audio>
+            <source src="/mrblack.mp3"></source>
+            <source src="/mrblack.ogg"></source>
+        </audio>
 
-                <div class="projectContainer">
-                  <div class="projectImageContainer">
-                      <a href="/projects/terrain/"><div class="projectImage" id="terrainLogo"></div></a>
-                  </div>
-                  <div class="projectText">
-                      <div class="projectTitle"><h3>Procedural Terrain Demo</h3></div>
-                      <div class="projectDescription">A DirectX application showcasing a few techniques for generating procedural terrain. The two methods used were simplex noise and faulting.</div>
-                      <a href="/projects/terrain/"><div class="projectView">More Info</div></a>
-                  </div>
-                </div>   
-                
-            <div class="projectContainer">
-                  <div class="projectImageContainer">
-                      <a href="/projects/beatmachine/"><div class="projectImage" id="beatmachineLogo"></div></a>
-                  </div>
-                  <div class="projectText">
-                      <div class="projectTitle"><h3>Beat Machine</h3></div>
-                      <div class="projectDescription">A four-channel Beat Machine made with PureData. Create simple beats with MIDI notes or audio Samples.</div>
-                  </div>
-                  <a href="/projects/beatmachine/"><div class="projectView">More Info</div></a>
-              </div>
-                
-                <div class="projectContainer">
-                  <div class="projectImageContainer">
-                      <a href="/projects/equinox/"><div class="projectImage" id="equinoxLogo"></div></a>
-                  </div>
-                  <div class="projectText">
-                      <div class="projectTitle"><h3>Equinox</h3></div>
-                      <div class="projectDescription">A runner synced to rock music tracks. You play as a firebird as it flies through a canyon which is generated to match the music.</div>
-                  </div>
-                  <a href="/projects/equinox/"><div class="projectView">More Info</div></a>
-              </div>
+    </head>
+    <body onload="">
+        <canvas id="background" width="100%" height="100%"></canvas>
+        <div id="content">
+            <h1 onclick="mrblackplay()">Peter Black</h1>
+            <h2>Engine Programmer</h2>
+            <h2>Avalanche Studios</h2>
+            <h2>Malmö</h2>
 
-                <div class="projectContainer">
-                  <div class="projectImageContainer">
-                      <a href="/projects/island/"><div class="projectImage" id="islandLogo"></div></a>
-                  </div>
-                  <div class="projectText">
-                      <div class="projectTitle"><h3>The Island &#40;Shader Demo&#41;</h3></div>
-                      <div class="projectDescription">A small DirectX 11 and HLSL shader demo application. Showcasing many different kinds of shaders, including tessellation, lighting and shadows.</div>
-                  </div>
-                  <a href="/projects/island/"><div class="projectView">More Info</div></a>
-              </div>
-                
-                
-                <div class="projectContainer">
-                  <div class="projectImageContainer">
-                      <a href="/projects/fragger/"><div class="projectImage" id="fraggerLogo"></div></a>
-                  </div>
-                  <div class="projectText">
-                      <div class="projectTitle"><h3>Fragger Vita</h3></div>
-                      <div class="projectDescription">A simple clone of the popular flash game Fragger, ported to the PlayStation Vita. The objective is to blow up all of the enemies with the available grenades.</div>
-                      <a href="/projects/fragger/"><div class="projectView">More Info</div></a>
-                  </div>
+            <div class="projectinfo">
+                <div class="projectinfoimage">
+                    <img src="/apex.png">
                 </div>
-                
-                
-                <div class="projectContainer">
-                  <div class="projectImageContainer">
-                      <a href="/projects/tetrix/"><div class="projectImage" id="tetrixLogo"></div></a>
-                  </div>
-                  <div class="projectText">
-                      <div class="projectTitle"><h3>Tetrix</h3></div>
-                      <div class="projectDescription">Tetrix is a fun flash game that combines two popular games, Tetris and Breakout.</div>
-                      <a href="/projects/tetrix/"><div class="projectView">More Info</div></a>
-                  </div>
-                </div>
+                <div class="projectinfotext">
+                    <h2>Engine Programmer</h2>
+                    <b>Avalanche Studios</b>
 
-                
-                <div class="projectContainer">
-                  <div class="projectImageContainer">
-                      <a href="/projects/supercratebox/"><div class="projectImage" id="scbLogo"></div></a>
-                  </div>
-                  <div class="projectText">
-                      <div class="projectTitle"><h3>Super Crate Box GBA</h3></div>
-                      <div class="projectDescription">A clone of the arcade game Super Crate Box made by Vlambeer. The game is about collecting as many crates as possible and avoiding enemies!</div>
-                      <a href="/projects/supercratebox/"><div class="projectView">More Info</div></a>
-                  </div>
-                </div>
-
-                <div class="projectContainer">
-                  <div class="projectImageContainer">
-                      <a href="/projects/other/"><div class="projectImage" id="otherLogo"></div></a>
-                  </div>
-                  <div class="projectText">
-                      <div class="projectTitle"><h3>Other Projects</h3></div>
-                      <div class="projectDescription">Some more of my smaller and older projects that you can play with. Most include the source code.</div>
-                      <a href="/projects/other/"><div class="projectView">More Info</div></a>
-                  </div>
+                    <p>January 2019 - Present</p>
                 </div>
             </div>
-              
+            <div class="projectinfo">
+                <div class="projectinfoimage">
+                    <img src="/onrush.png">
+                </div>
+                <div class="projectinfotext">
+                    <h2>Programmer - Core Technology</h2>
+                    <b>Codemasters Evo</b>
+                    <p>June 2017 - December 2018</p>  
+                    <p><b>Released</b> &nbsp;&nbsp; 5th June 2018</p>
+                </div>
             </div>
-      </div><!-- Page Content (everything but footer -->
-            <div class="footer"><p>contact@pete.black</p></div>   
+            <div class="projectinfo">
+                <div class="projectinfoimage">
+                    <img src="/abertay.png">
+                </div>
+                <div class="projectinfotext">
+                    <h2>Computer Games Technology</h2>
+                    <b>Abertay University</b>
+                    <p>September 2013 - May 2017</p>  
+                </div>
+            </div>
+            <h3><a href="https://www.linkedin.com/in/peter-black"><img src="/linkedin.png"></a> - contact@pete.black</h3>
+        </div>
     </body>
+    <script type="text/javascript" src="/peter.js"></script>
 </html>
