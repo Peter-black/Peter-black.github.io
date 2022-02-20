@@ -19,25 +19,13 @@ body
     height: 100%;
     margin: 0;
     padding: 0; 
-    background-color: #EEEAE5;
+    background-color: #E6e2db;
+    text-align: center;
 }
 
-#background
+h1,h2,h3,h4,span
 {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    height: 100%; 
-    width: 100%; 
-    display: block;
-    overflow: hidden;
-    filter: opacity(0.8);
-}
-
-h1,h2,h3
-{
-    font-family: 'Reem Kufi', sans-serif;
+    font-family: 'Libre Baskerville', serif;
 }
 
 h1
@@ -49,57 +37,71 @@ h1
 
 h2
 {
-    font-size: 18pt;
+    font-size: 26pt;
     line-height: 0.4;
 }
 
 h3
 {
+    font-size: 18pt;
+    line-height: 0.4;
+}
+
+h4
+{
     text-align: center;   
     font-size: 12pt;
-
     display: inline-block;
     width: 100%;
 }
 
-h3 img
+h4 img
 {
     vertical-align: middle;
 }
 
-#content
+#credits
 {
-    position: relative;
-    top: 0;
-    margin: 40px auto;
-    max-width: 650px;
-    line-height: 1.0;
-    font-size: 18px;
-    color: #454545;
-    padding: 0 10px;
-    z-index: 1;
+    margin-top: 70px;
 }
 
-.projectinfo
+#credit
 {
-    margin-top: 18px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    margin-bottom: 70px;
 }
 
-.projectinfoimage
+#creditinfo span
 {
-    width: 300px;
-    margin: auto;
-    float: left;
+    display:block;
+    margin: 10px 0px;
 }
 
-.projectinfotext
+#credittitle
 {
-    font-family: 'Source Sans Pro', sans-serif;
-    margin: 40px auto;
-    padding-left: 18px;
-    width: 310px;
-    float: right;
+    font-size: 14pt;
+    font-weight: 800;
+}
+
+#creditdetail
+{
+    font-size: 12pt;
+}
+
+@media (max-width: 350px)
+{
+    h1,h2,h3,h4
+    {
+        line-height: 1.0;
+    }
+}
+
+@media (orientation:landscape) 
+{    
+    #credit
+    {
+        margin-bottom: 35px;
+        margin-left:30px;
+        margin-right:30px;
+        display: inline-block;
+    }
 }
